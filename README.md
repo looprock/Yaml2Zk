@@ -4,7 +4,7 @@ This is a simple script for importing yaml configurations into zookeeper.
 
 Requirements: python2, PyYaml, kazoo
 
-Usage: yaml2zk '<zookeeper server>' '<zookeeper base znode>(NO TRAILING SLASH!)' '<yaml file>'
+Usage: yaml2zk [zookeeper server] [zookeeper base znode (NO TRAILING SLASH!)] [yaml file]
 
 Example: 
 [ bash ~] yaml2zk zookeeper.machine.com '/test' ~/config.yaml
